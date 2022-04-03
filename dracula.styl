@@ -1,0 +1,22 @@
+:root
+  --background: #282A36
+  --selection: #44475A
+
+@import '/Applications/SnippetsLab.app/Contents/SharedSupport/Markdown Themes/GitHub.css'
+
+body
+  --bezel-color: var(--background)
+  --border-color: var(--selection)
+
+code
+  background-color: var(--bezel-color)
+
+table tr:nth-child(2n)
+  background-color: var(--border-color)
+
+table td
+  border: 1px solid var(--border-color)
+
+.toc a
+  &:hover, &:focus
+    background-color: var(--selection)

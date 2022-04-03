@@ -1,0 +1,60 @@
+options:
+  style: dark
+  allowsSidebarIconTinting: true
+  allowsSidebarVibrancy: false
+  supportsWallpaperTinting: false
+
+appColors:
+  activeSegmentBackground: *BACKGROUND
+  activeSegmentText: *FOREGROUND
+
+  assistantBackground: *BLACK
+  assistantDivider: *BLACK
+  assistantPopoverDivider: *BACKGROUND
+  assistantPopoverOutline: *BACKGROUND
+  assistantSelectionUnemphasized: *BACKGROUND
+  assistantToolbarBackground: *BLACK
+
+  background: *BACKGROUND
+  controlAccent: *CYAN
+  currentLine: *SELECTION
+  editorBackground: *BACKGROUND
+  foreground: *FOREGROUND
+
+  inactiveSegmentBackground: *BLACK
+  inactiveSegmentText: *COMMENT
+
+  itemDivider: *BACKGROUND
+  markdownCodeHighlightBackground: *SELECTION
+  mouseOverInactiveSegmentBackground: *BACKGROUND
+
+  searchTokenNameBackground: *PURPLE
+  searchTokenNameSelectedText: *BRIGHT_WHITE
+  searchTokenNameSelectionBackground: *SELECTION
+  searchTokenValueBackground: *PURPLE
+  searchTokenValueSelectedText: *BRIGHT_WHITE
+  searchTokenValueSelectionBackground: *SELECTION
+
+  sectionDivider: *BACKGROUND
+
+  selectedContentBackground: *PURPLE
+  selectedTextBackground: *SELECTION
+
+  sidebarBackground: *BLACK
+  sidebarSelectionUnemphasized: *BACKGROUND
+
+  snippetsListBackground: *BLACK
+  snippetsListSelectionUnemphasized: *BACKGROUND
+  snippetTitle: *FOREGROUND
+
+  subsectionDivider: *BLACK
+
+  tagBackground: *PURPLE
+  tagBackgroundSelected: *SELECTION
+  tagBorder: *PURPLE
+  tagBorderSelected: *SELECTION
+  tagTitle: *BACKGROUND
+  tagTitleSelected: *FOREGROUND
+
+  toolbarBackground: *BLACK
+  toolbarStandaloneBackground: *BLACK
