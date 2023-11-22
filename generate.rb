@@ -1,6 +1,7 @@
 #! /usr/bin/env brew ruby
 $LOAD_PATH.unshift *Tap.cmd_directories
 require "dracula-yaml-json"
+require_relative "curl_output"
 
 branch = "035644d03a1d49f429e43415c0c95d3ff0d19904"
 py = curl_output "https://raw.githubusercontent.com/dracula/pygments/#{branch}/dracula.py"
